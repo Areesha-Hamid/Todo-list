@@ -55,6 +55,7 @@ form.addEventListener("submit",(e) => {
             input.focus();
             input.removeAttribute('readonly');
             editBtn.textContent = "Save";
+            input.classList.remove("line");
         }
         else{
             input.setAttribute("readonly","readonly");
